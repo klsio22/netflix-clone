@@ -1,0 +1,75 @@
+.top {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) 100%),
+    url("/img/capa-loki-01.jpg") no-repeat;
+  background-size: cover;
+  height: 31.25rem; /* 500px */
+}
+.description {
+  width: 60vw;
+  min-height: 25vw;
+  padding: 0.5rem;
+}
+
+.movie-main {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  /* overflow: hidden; */
+}
+
+.movie-main p {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+.movie-main .title {
+  margin-top: 15%;
+  font-size: 40px;
+}
+
+.button-1 {
+  background-color: var(--colorText-primary);
+}
+
+.button-1:hover {
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+.button-2 {
+  background-color: rgb(77, 77, 77);
+}
+
+.button-2:hover {
+  background-color: rgba(77, 77, 77, 0.6);
+}
+
+.title {
+  font-size: rem;
+}
+
+.box-movie {
+  height: 100%;
+  width: 100%;
+  display: block;
+}
+
+.nav-main {
+  background-color: rgba(0, 0, 0, 0);
+}
+.navbar>.container, .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl{
+ flex-wrap: initial;
+}
+
+.navbar-dark .navbar-toggler{
+  margin: 10px;
+}
+
+
+.carousel-movies {
+  margin: 2rem;
+}
+
+.owl-dots{
+  display: none;
+}

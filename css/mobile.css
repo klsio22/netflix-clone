@@ -1,0 +1,40 @@
+@media screen and (max-width: 991px) {
+  .top {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) 100%),
+      url("/img/capa-loki-01.jpg") no-repeat;
+    background-size: cover;
+    height: 31.25rem; /* 500px */
+  }
+
+  .description {
+    width: initial;
+    margin-top: 3rem;
+    padding: 1rem;
+
+  }
+
+  .movie-main p {
+    margin-bottom: 20px;
+  }
+
+  .menu{
+    position: absolute;
+    font-size: 15px;
+    
+    width: 10rem;
+    z-index: 10;
+    margin-top: 17rem;
+    margin-left: 0.6rem;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 5px;
+  }
+
+  .navbar-dark .navbar-nav .nav-link{
+    color: aliceblue;
+  }
+
+  form{
+    padding-left: 2rem;
+    width: 8rem;
+  }
+}

@@ -1,0 +1,64 @@
+* {
+  box-sizing: border-box;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 16px;
+}
+
+body,
+input,
+button,
+Textoarea {
+  font: 400 1.2rem/1 "Nunito", sans-serif;
+}
+
+:root {
+  --primay: #ef051a;
+  --secondary: #141414;
+  --colorText-primary: #fff;
+  --colorText-secondary: #141414;
+}
+
+body {
+  color: var(--colorText-primary);
+  background: var(--secondary);
+  font-weight: bold;
+  height: 100vh;
+}
+
+header .logo {
+  color: var(--primay);
+  font-size: 50px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header nav ul{
+  margin: 0 2rem;
+}
+
+
+header nav li a {
+  text-decoration: none;
+  color: var(--colorText-primary);
+  padding: 5px;
+}
+
+header nav a:hover {
+  color: #aaa;
+}
+
+main{
+  max-width: 20rem; /* 500px */
+
+}
+
+
+button{
+  border: none;
+  width: 15rem;
+  height: 3rem;
+  margin-bottom: 8px;
+  border-radius: 6px;
+  margin-right: 0.5rem;
+}
+
