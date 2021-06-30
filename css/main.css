@@ -14,6 +14,7 @@ Textoarea {
 :root {
   --primay: #ef051a;
   --secondary: #141414;
+  --background-transparent-black:rgba(0, 0, 0, 0.85);
   --colorText-primary: #fff;
   --colorText-secondary: #141414;
 }
@@ -23,6 +24,10 @@ body {
   background: var(--secondary);
   font-weight: bold;
   height: 100vh;
+}
+header{
+  background-color: var(--background-transparent-black);
+  height: 5rem;
 }
 
 header .logo {
@@ -49,9 +54,7 @@ header nav a:hover {
 
 main{
   max-width: 20rem; /* 500px */
-
 }
-
 
 button{
   border: none;

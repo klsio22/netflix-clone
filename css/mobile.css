@@ -8,7 +8,6 @@
 
   .description {
     width: initial;
-    margin-top: 3rem;
     padding: 1rem;
 
   }
@@ -25,7 +24,7 @@
     z-index: 10;
     margin-top: 17rem;
     margin-left: 0.6rem;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: var(--background-transparent-black);
     border-radius: 5px;
   }
 
