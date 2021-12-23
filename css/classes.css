@@ -37,7 +37,6 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-
 }
 
 .movie-main p {
@@ -80,6 +79,27 @@
   margin: 2rem;
 }
 
-.owl-dots {
-  display: none;
+.owl-stage{
+  margin: 1rem 0;
+}
+
+.owl-prev {
+  left: -30px;
+  width: 1rem;
+}
+
+.owl-next {
+  right: -30px;
+  width: 1rem;
+}
+
+.owl-prev,
+.owl-next {
+  position: absolute;
+  top: 140px;
+}
+
+.owl-prev span,
+.owl-next span{
+  font-size: 2rem;
 }
